@@ -8,3 +8,5 @@ CREATE TABLE animals (
     neutered boolean,
     weight_kg decimal
 );
+
+ alter table animals alter column id add GENERATED ALWAYS AS IDENTITY;
